@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Pushster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {width: 100%}
+
+
+body {background: #fef3e0;}
+
+header {
+    background: #565656;
+    padding: 20px 5%;
+    width: 90%;
+    border-bottom: 5px solid #505050;
+}
+
+header .logo {
+    font-family: 'Pushster', cursive;
+    font-size: 23px;
+    color: #fff;
+}
+
+header input {
+    float: right;
+    border: 1px solid silver;;
+    background: #fafafa;
+    border-radius: 5px;
+    width: 250px;
+    padding: 5px 10px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+
+/* header input:hover,
+header input:active {
+    border-bottom: 3px solid silver;
+    transition: transform 500ms ease;
+    transform: translate(0, -3px);
+}  */
+
+main {
+    width: 90%;
+    padding: 50px 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: width 500ms ease;
+}
+
+main .item {
+    position: relative;
+    width: 360px;
+    background: #57d0d9; // этот цвет поменять
+    padding: 20px;
+    margin-bottom: 50px;
+    /* margin: 10px; */
+}
+
+main .item img {
+    width: 300px;
+    margin: 20px;
+    transition: transform 900ms ease
+}
+
+main .item:hover img {
+    transform: scale(1.05);
+}
+
+main .item h4 {
+    font-weight: 600;
+    color: #9c3000; //можно поменять название цвета
+    font-size: 21px;
+    margin: 10px;
+}
+
+main p .looppa {
+    width: 32px;
+}
+
+main p .looppa:hover {
+    transform: scale(1.8);
+}
+
+
+footer {
+    background: #565656;
+    height: 80px;
+    color: #fff;
+}
+
+footer img {
+    width: 42px;
+}
+
+footer p {
+    float: right;
+    line-height: 80px;
+    /* right: 30px; */
+}
+
+footer span {
+    padding-left: 50px;
+    line-height: 80px;
+}
+
+footer a {
+    /* display: block; */
+    /* padding: 30px 10px; */
+    
+}
